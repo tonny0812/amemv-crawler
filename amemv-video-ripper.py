@@ -35,7 +35,7 @@ HEADERS = {
 
 def getRemoteFileSize(url, proxy=None):
     '''
-    通过content-length头获取远程文件大小
+            通过content-length头获取远程文件大小
     '''
     try:
         request = urllib.request.Request(url)
