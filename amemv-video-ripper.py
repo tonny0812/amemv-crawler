@@ -449,7 +449,7 @@ def parse_sites(fileName):
             numbers.append(site)
     return numbers
 
-noFavorite = False
+noFavorite = True
 
 if __name__ == "__main__":
     content, opts, args = None, None, []
