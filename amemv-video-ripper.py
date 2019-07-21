@@ -307,7 +307,7 @@ class CrawlerScheduler(object):
             aweme_list = contentJson.get('aweme_list', [])
             for aweme in aweme_list:
                 video_count += 1
-                self._join_download_queue(aweme, target_folder)
+                # self._join_download_queue(aweme, target_folder)
             if contentJson.get('has_more'):
                 max_cursor = contentJson.get('max_cursor')
             else:
